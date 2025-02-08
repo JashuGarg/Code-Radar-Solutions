@@ -6,10 +6,10 @@ int main() {
     char a;
     int num;
     scanf("%c",a);
-    num = a;
-    if('a'<=num<='z'){
+    
+    if('a'<=a<='z'){
         printf("Uppercase");
-    }else if ('A'<=num<='Z'){
+    }else if ('A'<=a<='Z'){
         printf("Lowercase");
     }else{
         printf("Not an alphabet");
