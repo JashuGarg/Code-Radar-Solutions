@@ -7,10 +7,12 @@ int main() {
     int num;
     scanf("%c",a);
     num = a;
-    if(num<=90){
+    if('a'<=num<='z'){
         printf("Uppercase");
-    }else{
+    }else if ('A'<=num<='Z'){
         printf("Lowercase");
+    }else{
+        printf("Not an alphabet");
     };
     
 }
