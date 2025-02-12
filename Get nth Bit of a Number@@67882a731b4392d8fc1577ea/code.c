@@ -9,7 +9,10 @@ int main (){
         a = a/2;
         if(b==i){
             printf("%d\n",rem);
-            break;
+            return 0;
+        }
+        else {
+            printf(0)
         }
         i++;
     }
