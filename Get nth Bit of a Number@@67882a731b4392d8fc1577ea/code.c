@@ -10,6 +10,6 @@ int main (){
         if(b==i){
             printf("%d",d);
         }
-        i++
+        i++;
     }
 }
