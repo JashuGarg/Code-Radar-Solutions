@@ -4,7 +4,7 @@ int main (){
     int a ,b,rem,i=1;
     scanf("%d %d",&a,&b);
     
-    while(rem>0){
+    while(a>0){
         rem = a%2;
         a = a/2;
         if(b==i){
