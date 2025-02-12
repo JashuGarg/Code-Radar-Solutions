@@ -8,7 +8,7 @@ int main (){
         rem = a%2;
         a = a/2;
         if(b==i){
-            printf("%d",rem);
+            printf("%d\n",rem);
             break;
         }
         i++;
