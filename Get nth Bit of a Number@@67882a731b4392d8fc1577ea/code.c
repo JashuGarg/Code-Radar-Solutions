@@ -11,9 +11,7 @@ int main (){
             printf("%d\n",rem);
             return 0;
         }
-        else {
-            printf("0");
-        }
+
         i++;
     }
     return 0;
