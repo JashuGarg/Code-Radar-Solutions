@@ -1,18 +1,11 @@
 #include <stdio.h>
 
-int main (){
-    int a ,b,rem,i=0;
-    scanf("%d %d",&a,&b);
+int main() {
+    int num, position;
+    scanf("%d %d", &num, &position);
     
-    while(a>0){
-        rem = a%2;
-        a = a/2;
-        if(b==i){
-            printf("%d\n",rem);
-            return 0;
-        }
-
-        i++;
-    }
+    int bit = (num >> position) & 1;
+    printf("%d\n", bit);
+    
     return 0;
 }
