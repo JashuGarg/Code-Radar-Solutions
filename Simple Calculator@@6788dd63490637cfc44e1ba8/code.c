@@ -10,8 +10,8 @@
         printf("%d",a-b);
     }else if (c=='*'){
         printf("%d",a*b);
-    }else (
+    }else {
         printf("%d",a/b);
-    )
+    }
     return 0;
  }
