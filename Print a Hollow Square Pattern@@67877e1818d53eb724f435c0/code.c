@@ -8,8 +8,8 @@ int main (){
             if ((i==1 &&j==1)||(i==1&&j==n )|| (i==n && j==1) || (i==n && j==n) ){
                 printf("*");
             }else {
-                printf(" ")
+                printf(" ");
             }
-        }printf("\n")
+        }printf("\n");
     }
 }
