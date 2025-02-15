@@ -1,20 +1,15 @@
-// Your code here...
 #include <stdio.h>
 
-int main (){
+int main() {
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);
 
-    for (int i=1;i<=n;i++){
-        int alter = 1;
-        for(int j=1;j<=i;j++){
-            printf("%d ",alter);
-            if(alter==0){
-                alter = 1;
-            }else {
-                alter = 0;
-            }
-            
-        }printf("\n");
+    for (int i = 1; i <= n; i++) {  // Loop for rows
+        for (int j = 1; j <= i; j++) {  // Loop for columns
+            printf("%d ", (i + j) % 2);  // Alternating between 0 and 1
+        }
+        printf("\n");  // Move to the next line
     }
+
+    return 0;
 }
