@@ -6,20 +6,23 @@ int main() {
 
     scanf("%d %d %c", &a, &b, &c);
 
-    if (c == '+') {
-        printf("%d\n", a + b);
-    } else if (c == '-') {
-        printf("%d\n", a - b);
-    } else if (c == '*') {
-        printf("%d\n", a * b);
-    } else if (c == '/') {
-        if (b != 0) {  // Prevent division by zero
-            printf("%d", (float)a / b);
-        } else {
-            printf("Error: Division by zero is not allowed!\n");
-        }
-    } else {
-        printf("Invalid operator!\n");
+    switch (c){
+        case '+':
+            printf("%d",a+b);
+            break;
+        case '-':
+            printf("%d",a-b);
+            break;
+        case '*':
+            printf("%d",a*b);
+            break;
+        case '/':
+            printf("%d",a/b);
+            break;
+        default:
+            printf("print error");
+            break;
+
     }
 
     return 0;
