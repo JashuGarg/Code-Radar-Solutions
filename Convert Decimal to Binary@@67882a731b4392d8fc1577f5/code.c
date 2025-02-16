@@ -5,7 +5,7 @@ int main (){
     scanf("%d",&n);
     int binary = 0, place = 1;
 
-    while (num > 0) {
+    while (n > 0) {
         rem = n % 2;
         binary += rem * place;
         n /= 2;
