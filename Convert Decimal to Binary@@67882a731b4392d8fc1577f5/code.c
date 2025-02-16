@@ -6,9 +6,9 @@ int main (){
     int binary = 0, place = 1;
 
     while (num > 0) {
-        rem = num % 2;
+        rem = n % 2;
         binary += rem * place;
-        num /= 2;
+        n /= 2;
         place *= 10;
     }
     printf("%d",binary);
