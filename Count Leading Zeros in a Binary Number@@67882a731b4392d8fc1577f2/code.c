@@ -6,7 +6,7 @@ int main (){
     int n,count = 0;
     scanf("%d",&n);
 
-    while (1){
+    while (True){
         if((a&1)==0){
             count++;
         }
