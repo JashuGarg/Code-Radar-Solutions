@@ -18,13 +18,13 @@ int main() {
             break;
         case '/':
             if (b == 0) {
-                printf("Division by zero error");
+                printf("error");
             } else {
                 printf("%d", a / b);
             }
             break;
         default:
-            printf("Invalid operator");
+            printf("error");
             break;
     }
 
