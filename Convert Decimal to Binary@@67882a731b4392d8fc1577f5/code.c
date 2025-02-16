@@ -5,7 +5,7 @@ int main (){
     scanf("%d",&n);
     for (int i=1;rem>0;i++){
         rem = n%2;
-        n = n/2;
+        n = n/10;
         printf("%d",rem);
     }
     return 0;
