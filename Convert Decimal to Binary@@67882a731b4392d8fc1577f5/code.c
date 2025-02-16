@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-int main (){
-    int n,rem=0;
-    scanf("%d",&n);
-    int binary = 0, place = 1;
+int main() {
+    int n, rem = 0;
+    scanf("%d", &n);
+    
+    long long binary = 0, place = 1;
 
     while (n > 0) {
         rem = n % 2;
@@ -11,6 +12,7 @@ int main (){
         n /= 2;
         place *= 10;
     }
-    printf("%d",binary);
+
+    printf("%lld", binary);
     return 0;
 }
