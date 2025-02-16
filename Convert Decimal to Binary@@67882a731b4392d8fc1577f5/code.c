@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main (){
-    int n,rem;
+    int n,rem=0;
     scanf("%d",&n);
-    for (int i=1;rem>0;i++){
+    while(rem>0){
         rem = n%2;
-        n = n/10;
+        n = n/2;
         printf("%d",rem);
     }
     return 0;
