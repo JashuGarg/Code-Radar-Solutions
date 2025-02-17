@@ -1,14 +1,12 @@
 #include <stdio.h>
 
-
-int main() {
-    int a,result;
-    scanf("%d %d",&a);
-    if(a|1 ||a&1){
+int main (){
+    int n;
+    scanf("%d",n);
+    if (n&(1<<32)==1){
         printf("Set");
     }else{
         printf("Not Set");
-    };
-   
+    }
     return 0;
 }
