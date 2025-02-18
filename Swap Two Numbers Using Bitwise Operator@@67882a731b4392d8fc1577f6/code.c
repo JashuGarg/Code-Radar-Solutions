@@ -8,7 +8,7 @@ int main() {
 
     x = x ^ y;
     y = x ^ y;
-    x = x ^ y;
+
 
     printf("%d %d", x, y);
 
