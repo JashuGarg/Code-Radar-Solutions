@@ -13,11 +13,11 @@ int main() {
                 a = 0;
             }
         }
-        if(a==0){
-                a = 1;
-            }else {
-                a = 0;
-            }
+        if (i%2==0){
+            a =1;
+        }else {
+            a=0;
+        }
 printf("\n");
     }
 }
