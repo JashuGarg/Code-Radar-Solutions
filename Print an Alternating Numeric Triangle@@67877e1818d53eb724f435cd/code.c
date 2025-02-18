@@ -1,15 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    int n;
+    int n,a=1;
     scanf("%d", &n);
 
-    for (int i = 1; i <= n; i++) {  // Loop for rows
-        for (int j = 1; j <= i; j++) {  // Loop for columns
-            printf("%d ", (i + j) % 2);  // Alternate between 1 and 0
+    for (int i =1;i<=n;i++){
+        for (int j=1;j<=i;j++){
+            printf("%d",a);
+            if(a==0){
+                a = 1;
+            }else {
+                a = 0;
+            }
         }
-        printf("\n");  // Move to the next line
-    }
 
-    return 0;
+    }
 }
