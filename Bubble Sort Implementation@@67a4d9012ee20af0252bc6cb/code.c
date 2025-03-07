@@ -7,7 +7,7 @@ void swap (int *a,int *b){
     *b=temp;
 }
 
-int bubbleSort(int arr[],int n){
+void bubbleSort(int arr[],int n){
     for (int i=n-2;i>=0;i--){
         int isswapped = 0;
         for (int j=0;j<=i;j++){
@@ -18,5 +18,5 @@ int bubbleSort(int arr[],int n){
         if (!isswapped)
             break;
         }
-        return arr;
+      
 }
