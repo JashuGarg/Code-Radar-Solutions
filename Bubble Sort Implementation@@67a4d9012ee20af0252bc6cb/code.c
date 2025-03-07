@@ -18,5 +18,10 @@ void bubbleSort(int arr[],int n){
         if (!isswapped)
             break;
         }
-      
+}
+
+void printArray(int arr[], int n) {
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
 }
