@@ -6,7 +6,7 @@ int fibonacciSeries(int n){
     arr[0]=0;
     arr[1]=1;
     for (int i=2;i<n+2;i++){
-        c = a+b;
+      int c = a+b;
         a = b;
         b = c;
         arr[i]=c;
