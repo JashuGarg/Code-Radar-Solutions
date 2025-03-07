@@ -1,6 +1,6 @@
 
 // Your code here...
-void swap (int *a,*b){
+void swap (int *a,int *b){
     int temp ;
     temp =*a;
     *a=*b;
