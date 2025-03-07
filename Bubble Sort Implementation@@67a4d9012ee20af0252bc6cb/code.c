@@ -13,6 +13,7 @@ void bubbleSort(int arr[],int n){
         for (int j=0;j<=i;j++){
             if (arr[j]>arr[j+1]){
                 swap(&arr[j],&arr[j+1]);
+                isswapped =1;
             }
         }
         if (!isswapped)
