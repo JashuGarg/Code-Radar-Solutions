@@ -11,5 +11,5 @@ int fibonacciSeries(int n){
         b = c;
         arr[i]=c;
     }
-    return arr[];
+    return arr;
 }
