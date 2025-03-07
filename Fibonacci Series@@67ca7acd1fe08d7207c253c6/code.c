@@ -1,5 +1,5 @@
 // Your code here...M
-int fibonacciSeries(int n){
+void fibonacciSeries(int n){
     int a = 0;
     int b = 1;
     jcout<<a << " "<< b;
