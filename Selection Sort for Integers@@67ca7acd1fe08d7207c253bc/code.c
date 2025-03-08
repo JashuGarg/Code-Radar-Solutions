@@ -9,8 +9,8 @@ void selectionSort (int arr[],int n){
     
     for (int i=0;i<n;i++){
         int index =i;
-        for (int j =1;j<n;j++){
-            if (arr[index]<arr[j])
+        for (int j =i+1;j<n;j++){
+            if (arr[index]>arr[j])
                 index =j;
         }
         swap (&arr[i],&arr[index]);
