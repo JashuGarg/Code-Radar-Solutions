@@ -1,3 +1,9 @@
+void swap (int *a,int *b){
+    int temp = *a;
+    *b = *a;
+    *a=temp;
+}
+
 
 void selectionSort (int arr[],int n){
     
@@ -7,7 +13,7 @@ void selectionSort (int arr[],int n){
             if (arr[index]>arr[j])
                 index =j;
         }
-        swap (arr[i],arr[index]);
+        swap (&arr[i],&arr[index]);
     }
 }
 void printArray (int arr[],int n){
