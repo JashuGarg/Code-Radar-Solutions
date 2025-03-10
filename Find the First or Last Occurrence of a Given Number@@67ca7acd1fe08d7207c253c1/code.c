@@ -18,9 +18,9 @@ if (mode=='F')
     }
     return first;
 }
-start =0 , end = n-1;
 else
 {
+start =0 , end = n-1;
     int last = -1;
     while (start<=end){
         mid = start + (end-start)/2;
