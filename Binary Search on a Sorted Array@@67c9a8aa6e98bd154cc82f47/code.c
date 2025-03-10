@@ -1,6 +1,6 @@
 // Your code here...
 
-binarySearch(int arr[],int n,int target){
+int binarySearch(int arr[],int n,int target){
     int start = 0, end = n-1,mid;
 
     while (start<=end){
