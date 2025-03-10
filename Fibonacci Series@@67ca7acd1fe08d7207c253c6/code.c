@@ -3,11 +3,11 @@
 void fibonacciSeries(int n){
     int a = 0;
     int b = 1;
-    cout<<a << " "<< b;
+   printf("%d %d",a,b);
     for (int i=2;i<n+2;i++){
       int c = a+b;
         a = b;
         b = c;
-        cout<<c<< " ";
+        printf(" &d",c);
     }
 }
