@@ -11,7 +11,7 @@ if (mode=='F')
             first = mid;
             end = mid -1;
         }
-        else if (arr[mid]<target)
+        else if (arr[mid]<ans)
             start = mid +1;
         else 
             end = mid -1;
@@ -28,7 +28,7 @@ else
             last = mid;
             start = mid+1;
         }
-        else if (arr[mid]<target)
+        else if (arr[mid]<ans)
             start = mid +1;
         else 
             end = mid -1;
