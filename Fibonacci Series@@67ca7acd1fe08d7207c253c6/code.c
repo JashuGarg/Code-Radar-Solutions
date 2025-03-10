@@ -4,7 +4,7 @@ void fibonacciSeries(int n){
     int a = 0;
     int b = 1;
     if (n<2){
-        printf(0);
+        printf("%d",0);
         return;
     }
    printf("%d %d",a,b);
