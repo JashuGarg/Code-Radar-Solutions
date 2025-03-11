@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 int SecondLargest(int arr[],int n){
-    int min = INT_MIN;
+    int min = arr[0];
     for (int i=0;i<n;i++){
         if (arr[i]>min){
             min = arr[i];
         }
     }
-    int second = INT_MIN;
+    int second = arr[0];
     for (int i=0;i<n;i++){
         if (arr[i]==ans){
             continue;
