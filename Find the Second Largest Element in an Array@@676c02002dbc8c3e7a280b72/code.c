@@ -1,14 +1,15 @@
 // Your code here...
 #include <stdio.h>
+#include <limits.h>
 
 int SecondLargest(int arr[],int n){
-    int min = arr[0];
+    int min = INT_MIN;
     for (int i=0;i<n;i++){
         if (arr[i]>min){
             min = arr[i];
         }
     }
-    int second = arr[0];
+    int second = INT_MIN;
     for (int i=0;i<n;i++){
         if (arr[i]==min){
             continue;
