@@ -8,7 +8,7 @@ int SecondLargest(int arr[],int n){
             min = arr[i];
         }
     }
-    int second = -1;
+    int second = arr[0];
     for (int i=0;i<n;i++){
         if (arr[i]==min){
             continue;
@@ -17,6 +17,9 @@ int SecondLargest(int arr[],int n){
             second = arr[i];
         }
         }
+    }
+    if (second==min){
+        return -1;
     }
     return second;
 }
