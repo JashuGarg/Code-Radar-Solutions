@@ -7,6 +7,7 @@ int checkpalindrome(int arr[],int n)
     while (i<=j){
         if (arr[i]!=arr[j])
             return 0;
+    i++,j--;
     }
     return 1;
 }
