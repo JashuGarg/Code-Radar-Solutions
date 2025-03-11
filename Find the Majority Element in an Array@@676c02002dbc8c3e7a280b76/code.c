@@ -14,16 +14,15 @@ int main (){
     for (int i=0;i<n;i++){
         int count =0;
         for(int j=0;j<n;j++){
-            if (arr[i]==arr[j]){
+            if (arr[i]==arr[j])
                 count++;
-            }
-        if (count>majority){
-            ans = arr[i];
         }
+        if (count>majority)
+            ans = arr[i];
     }
-}
 
-if (ans!=0){
+if (ans!=0)
     printf("%d",ans);
-}else
+else
     printf("%d",-1);
+}
