@@ -25,7 +25,7 @@ int main (){
     int n,arr[10000];
     scanf("%d",&n);
     for (int i=0;i<n;i++){
-        scanf("%d",&arr[i];)
+        scanf("%d",&arr[i]);
     }
     int ans = second(arr,n);
     printf("%d",ans);
