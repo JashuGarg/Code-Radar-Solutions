@@ -7,7 +7,7 @@ int countprime(int arr[],int n){
        if (arr[i]<2){
             continue;
        }
-        for (int j=2;j<i;j++){
+        for (int j=2;j<arr[i];j++){
             if (arr[i]%j==0)
                 isprime=0;
         }
