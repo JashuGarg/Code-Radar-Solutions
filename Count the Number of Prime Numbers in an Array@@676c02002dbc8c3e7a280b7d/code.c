@@ -9,7 +9,7 @@ int countprime(int arr[],int n){
                 isprime=0;
         }
     if (isprime){
-        count++
+        count++;
         }
     }
     return count;
