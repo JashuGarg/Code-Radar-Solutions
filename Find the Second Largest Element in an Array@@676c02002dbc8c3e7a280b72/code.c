@@ -19,7 +19,7 @@ int SecondLargest(int arr[],int n){
         }
         }
     }
-    if (second==min || second==INT_MIN){
+    if (second==INT_MIN){
         return -1;
     }
     return second;
