@@ -13,7 +13,7 @@ int main (){
             arr[i]=0;
         sum+=arr[i];
     }
-    printf("%d",n-sum);
+    printf("%d",sum);
 
 
 }
