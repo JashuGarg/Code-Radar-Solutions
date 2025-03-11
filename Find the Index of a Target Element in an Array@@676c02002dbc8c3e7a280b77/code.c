@@ -13,6 +13,7 @@ int main (){
     for(int i=0;i<n;i++){
         if (arr[i]==target){
             index =i;
+            break;
         }
     }
     printf("%d",index);
