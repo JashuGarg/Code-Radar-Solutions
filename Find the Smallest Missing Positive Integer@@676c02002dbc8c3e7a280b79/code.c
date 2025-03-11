@@ -13,7 +13,11 @@ int main (){
             arr[i]=0;
         sum+=arr[i];
     }
-    printf("%d",sum-n);
+    int sumn=0;
+    for (int i=1;i<=n;i++){
+        sumn+= i;
+    }
+    printf("%d",sumn-sum);
 
 
 }
