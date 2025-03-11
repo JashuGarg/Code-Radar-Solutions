@@ -17,7 +17,9 @@ int main (){
     for (int i=1;i<=n;i++){
         sumn+= i;
     }
-    printf("%d",sumn-sum);
+    printf("%d\n",sumn-sum);
+    printf("%d\n",sumn);
+    printf("%d\n",sum);
 
 
 }
