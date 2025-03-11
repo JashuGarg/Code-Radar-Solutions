@@ -10,10 +10,10 @@ int SecondLargest(int arr[],int n){
     }
     int second = arr[0];
     for (int i=0;i<n;i++){
-        if (arr[i]==ans){
+        if (arr[i]==min){
             continue;
         }else {
-            if (arr[i]>min){
+            if (arr[i]>second){
             second = arr[i];
         }
         }
