@@ -11,7 +11,7 @@ int isSorted(int arr[],int n){
 }
 
 int main(){
-    int arr[],n;
+    int arr[1000],n;
     scanf ("%d",&n);
 
     for (int i=0;i<n;i++){
