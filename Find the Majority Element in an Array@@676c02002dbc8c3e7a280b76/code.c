@@ -1,13 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int countinteger(int arr[],int n,int num){
-    int count = 0;
-    for (int i=0;i<n;i++){
-        if (arr[i]==num){
-            count++;
-        }
-    }
-    return count;
+
 }
 int main (){
     int n,arr[10000];
@@ -16,14 +10,20 @@ int main (){
     for (int i =0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int majority = n/2;
+    int majority = n/2,ans;
     for (int i=0;i<n;i++){
-        int count = countinteger(arr,n,arr[i]);
+        int count =0;
+        for(int j=0;j<n;j++){
+            if (arr[i]==arr[j]){
+                count++;
+            }
         if (count>majority){
-            printf("%d",arr[i]);
+            ans = arr[i];
         }
     }
-
-
-
 }
+
+if (ans!=0){
+    printf("%d",ans);
+}else
+    printf("%d",-1);
