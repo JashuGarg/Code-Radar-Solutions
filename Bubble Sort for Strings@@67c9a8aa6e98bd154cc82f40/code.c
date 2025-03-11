@@ -1,7 +1,7 @@
 
 // Your code here...
 void swap (char *a,char *b){
-    int temp ;
+    char temp ;
     temp =*a;
     *a=*b;
     *b=temp;
