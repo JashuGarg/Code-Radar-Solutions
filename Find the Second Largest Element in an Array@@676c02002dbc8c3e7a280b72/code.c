@@ -27,6 +27,6 @@ int main (){
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int ans = second(arr,n);
+    int ans = SecondLargest(arr,n);
     printf("%d",ans);
 }
