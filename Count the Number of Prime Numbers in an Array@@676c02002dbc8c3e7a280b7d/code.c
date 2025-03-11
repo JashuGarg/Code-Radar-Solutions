@@ -4,6 +4,9 @@ int countprime(int arr[],int n){
     int count =0;
     for (int i=0;i<n;i++){
        int isprime=1;
+       if (arr[i]<2){
+            continue;
+       }
         for (int j=2;j<i;j++){
             if (arr[i]%j==0)
                 isprime=0;
