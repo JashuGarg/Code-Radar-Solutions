@@ -8,7 +8,7 @@ int main (){
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int ans,isrepeat=1;
+    int ans=-1,isrepeat=1;
     for(int i=0;i<n;i++){
         if(isrepeat)
             {
