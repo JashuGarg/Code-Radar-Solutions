@@ -14,7 +14,7 @@ int main (){
         {
             rem = arr[i]%10;
             if (rem<0){
-                rem = rem - (2*rem);
+                rem = rem*(-1);
             }
             ans += rem;
             arr[i]= arr[i]/10;
