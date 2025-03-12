@@ -1,10 +1,10 @@
-void swap(int *a,int *b)
+void swap(char *a,char *b)
 {
-    int temp = *a;
+    char temp = *a;
     *a = *b;
     *b = temp;
 }
-int selectionSort(int arr[],int n)
+int selectionSort(char arr[],int n)
 {
     for (int i=0;i<n;i++){
         int index = i;
@@ -16,9 +16,9 @@ int selectionSort(int arr[],int n)
     }
 }
 
-void printArray(int arr[],int n)
+void printArray(char arr[],int n)
 {
     for (int i=0;i<n;i++){
-        printf("%d",arr[i]);
+        printf("%c",arr[i]);
     }
 }
