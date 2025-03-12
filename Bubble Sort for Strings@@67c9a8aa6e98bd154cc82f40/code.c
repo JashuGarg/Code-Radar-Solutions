@@ -7,7 +7,7 @@ void swap (char *a,char *b){
     *b=temp;
 }
 
-void bubbleSort(char arr[],int n){
+void bubbleSort(char arr[][],int n){
     for (int i=n-2;i>=0;i--){
         int isswapped = 0;
         for (int j=0;j<=i;j++){
@@ -21,7 +21,7 @@ void bubbleSort(char arr[],int n){
         }
 }
 
-void printArray(char arr[], int n) {
+void printArray(char arr[][], int n) {
     for (int i = 0; i < n; i++) {
         printf("%s ", arr[i]);
     }
