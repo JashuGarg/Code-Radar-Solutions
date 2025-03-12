@@ -10,14 +10,14 @@ int main (){
     }
 
     for (int i=0;i<n;i++){
-        if (visited[i]) 
+        if (arr[i]) 
             continue;
 
         int count=0;
         for (int j=0;j<n;j++){
             if (arr[i]==arr[j]){
                 count++; 
-                visited[j] = 1;
+                arr[j] = 1;
                 }
         }
         
