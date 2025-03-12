@@ -14,11 +14,12 @@ int main (){
             {
                 for(int j=0;i<n;j++){
                 if (arr[i]==arr[j]){
-                    ans = arr[i]
-                    isrepeat = 0
+                    ans = arr[i];
+                    isrepeat = 0;
                     break;    
                 }
                 }
             }
     }
+    printf("%d",ans);
 }
