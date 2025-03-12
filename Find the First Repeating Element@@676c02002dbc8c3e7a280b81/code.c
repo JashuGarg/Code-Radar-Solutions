@@ -12,7 +12,7 @@ int main (){
     for(int i=0;i<n;i++){
         if(isrepeat)
             {
-                for(int j=i+1;i<n;j++){
+                for(int j=i+1;j<n;j++){
                 if (arr[i]==arr[j]){
                     ans = arr[i];
                     isrepeat = 0;  
