@@ -18,7 +18,7 @@ int main (){
         for (int j=i+1;j>=0;j--)
         {
             if (arr[i]==arr[j])
-                continue;
+                break;
         }
         
         printf("%d %d\n",arr[i],count);
