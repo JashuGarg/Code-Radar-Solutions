@@ -10,16 +10,17 @@ int main (){
     }
 
     for (int i=0;i<n;i++){
+        if (visited[i]) 
+            continue;
+
         int count=0;
         for (int j=0;j<n;j++){
-            if (arr[i]==arr[j])
-                count++;
+            if (arr[i]==arr[j]){
+                count++; 
+                visited[j] = 1;
+                }
         }
-        for (int j=i+1;j>=0;j--)
-        {
-            if (arr[i]==arr[j])
-                break;
-        }
+        
         
         printf("%d %d\n",arr[i],count);
     }
