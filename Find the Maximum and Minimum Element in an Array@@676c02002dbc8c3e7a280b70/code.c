@@ -26,6 +26,6 @@ int main (){
 
     int maximum = max(arr,n);
     int minimum = min(arr,n);
-    printf("%d %d",min,max);
+    printf("%d %d",minimum,maximum);
     
 }
