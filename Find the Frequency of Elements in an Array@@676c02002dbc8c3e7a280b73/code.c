@@ -14,6 +14,6 @@ int main (){
             if (arr[i]==arr[j])
                 count++;
         }
-        printf("%d %d",arr[i],count);
+        printf("%d %d\n",arr[i],count);
     }
 }
