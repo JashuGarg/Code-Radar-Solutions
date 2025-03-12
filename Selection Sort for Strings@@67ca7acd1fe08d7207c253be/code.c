@@ -4,7 +4,7 @@ void swap(char *a,char *b)
     *a = *b;
     *b = temp;
 }
-int selectionSort(char arr[],int n)
+int selectionSort(char arr[100],int n)
 {
     for (int i=0;i<n;i++){
         int index = i;
@@ -16,7 +16,7 @@ int selectionSort(char arr[],int n)
     }
 }
 
-void printArray(char arr[],int n)
+void printArray(char arr[100],int n)
 {
     for (int i=0;i<n;i++){
         printf("%c",arr[i]);
