@@ -16,7 +16,7 @@ int main (){
             if (arr[i]==arr[j])
                 continue;
             int newmul = arr[i]*arr[j];
-            if (newmul>mul){
+            if (newmul>mull){
                 mull = newmul;
             }
         }
