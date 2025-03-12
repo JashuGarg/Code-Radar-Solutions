@@ -13,8 +13,8 @@ int main (){
         while (arr[i]>0)
         {
             rem = arr[i]%10;
-            if (rem<=0){
-                rem = rem - (2*rem);
+            if (rem<0){
+                rem+=10;
             }
             ans += rem;
             arr[i]= arr[i]/10;
