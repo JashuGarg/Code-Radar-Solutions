@@ -12,10 +12,10 @@ int main (){
     printf("%d\n",i);
     if(n%2==0)
     {
-        sum = arr[i]+arr[i+1];
+        sum = arr[i-1]+arr[i];
     }
     else {
-        sum = arr[i+1];
+        sum = arr[i];
     }
     printf("%d",sum);
 }
