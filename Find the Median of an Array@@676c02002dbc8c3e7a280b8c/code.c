@@ -12,7 +12,7 @@ int main (){
     // printf("%d\n",i);
     if(n%2==0)
     {
-        sum = arr[i-1]+arr[i];
+        sum = (arr[i-1]+arr[i])/2;
     }
     else {
         sum = arr[i];
