@@ -9,6 +9,7 @@ int main (){
     }
     int sum = 0;
     int i =n/2;
+    printf("%d\n",i);
     if(n%2==0)
     {
         sum = arr[i]+arr[i+1];
