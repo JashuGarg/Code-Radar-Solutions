@@ -1,12 +1,14 @@
 #include <stdio.h>
 
 int main (){
-    int arr[1000],n,ans[10000];
+   int arr[1000],n;
+
     scanf("%d",&n);
-    
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int ans[1000];
+
     ans[0]=arr[0];
     for(int i=1;i<n;i++)
     {
@@ -14,6 +16,6 @@ int main (){
     }
 
     for (int i=0;i<n;i++){
-        printf("%d ",&arr[i]);
+        printf("%d ",&ans[i]);
     }
 }
