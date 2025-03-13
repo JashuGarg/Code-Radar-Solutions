@@ -9,6 +9,9 @@ int main (){
     int count =0;
     for (int i=0;i<n;i++)
     {
+        if (arr[i]<0){
+            continue;
+        }
         int rem,ans=0;
         int num = arr[i];
         while (num){
