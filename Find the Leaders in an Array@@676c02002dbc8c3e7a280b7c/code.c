@@ -12,7 +12,7 @@ int main (){
         int ans = arr[i];
         for (int j=0;j<n;j++)
         {
-            if(arr[j]<ans)
+            if(arr[j]<=ans)
                 ans = arr[i];
             else
                 break;
