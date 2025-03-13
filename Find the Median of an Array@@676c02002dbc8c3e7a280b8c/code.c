@@ -14,7 +14,7 @@ int main (){
         sum = arr[((i/2)+1)];
     }
     else {
-        sum = arr[i/2]+arr[(i/2)+1]
+        sum = arr[i/2]+arr[(i/2)+1];
     }
     printf("%d",sum);
 }
