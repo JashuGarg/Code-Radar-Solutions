@@ -8,13 +8,13 @@ int main (){
         scanf("%d",&arr[i]);
     }
     int sum = 0;
-    int i =n;
+    int i =n/2;
     if(n%2==0)
     {
-        sum = arr[i/2]+arr[int(i/2)+1];
+        sum = arr[i]+arr[i+1];
     }
     else {
-        sum = arr[int(i/2)+1];
+        sum = arr[i+1];
     }
     printf("%d",sum);
 }
