@@ -1,5 +1,13 @@
 #include <stdio.h>
 #include <limits.h>
+
+int min (int a,int b){
+    if (a>b){
+        return b;
+    }else{
+        return a;
+    }
+}
 int main(){
     int n,arr[1000];
     scanf("%d",&n);
