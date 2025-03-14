@@ -1,6 +1,6 @@
 #include <string.h>
 void swap(char a[],char b[]){
-    char temp[];
+    char temp[100];
     strcpy(temp,a);
     strcpy(a,b);
     strcpy(b,temp);
