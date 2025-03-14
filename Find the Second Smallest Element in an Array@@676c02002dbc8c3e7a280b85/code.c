@@ -8,18 +8,18 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    int min = INT_MAX;
+    int mini = INT_MAX;
     for (int i=0;i<n;i++){
-        if (arr[i]<min)
-            min = arr[i];
+        if (arr[i]<mini)
+            mini = arr[i];
     }
     int second = -1;
     for(int i=0;i<n;i++){
-        if (arr[i]==min)
+        if (arr[i]==mini)
             continue;
-        else {
+        else 
             second = min(arr[i],second);
-        }
+        
     }
     printf("%d",second);
 }
