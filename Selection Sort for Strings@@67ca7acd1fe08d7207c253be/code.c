@@ -1,3 +1,4 @@
+
 void selectionSort(char arr[][100], int n) {
     for (int i = 0; i < n - 1; i++) {  
         int index = i;
@@ -5,9 +6,10 @@ void selectionSort(char arr[][100], int n) {
             if (arr[j] < arr[index])
                 index = j;
         }
-        char *temp = arr[i];
-        arr[i]=arr[index];
-        arr[index]= *temp;
+       char temp[100];  
+        strcpy(temp, arr[i]);
+        strcpy(arr[i], arr[index]);
+        strcpy(arr[index], temp);
     }
 }
 
