@@ -9,7 +9,7 @@ int searchInRotatedArray(int arr[],int n,int target){
             break;
         }
 
-        else if (arr[mid]>target){
+        else if (arr[mid]>arr[0]){
             if(arr[start]<target && arr[mid]>target)
                 end = mid -1;
             else 
