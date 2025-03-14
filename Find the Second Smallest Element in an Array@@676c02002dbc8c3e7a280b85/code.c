@@ -30,7 +30,7 @@ int main(){
         
     }
     if(mini==second)
-        printf(-1);
+        printf("%d",-1);
     else
         printf("%d",second);
 }
