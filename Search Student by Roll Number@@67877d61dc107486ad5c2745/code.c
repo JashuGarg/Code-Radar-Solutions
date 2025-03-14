@@ -12,7 +12,7 @@ int main (){
     int target;
     scanf("%d",&target);
     int isprint = 0;
-    for (int i=0,i<n;i++){
+    for (int i=0;i<n;i++){
         if (rollno[i]==target){
             printf("Roll Number: %d, Name: %s, Marks: %.2f\n",rollno[i],name[i],marks[i]);
             isprint= 1;
