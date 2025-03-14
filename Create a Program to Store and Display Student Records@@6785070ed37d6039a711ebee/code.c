@@ -8,6 +8,6 @@ int main (){
         int rollno;
         char name[100];
         float marks;
-        printf("Roll Number: %d, Name: %s, Marks: %f\n",rollno,name,marks);
+        printf("Roll Number: %d, Name: %s, Marks: %.2f\n",rollno,name,marks);
     }
 }
