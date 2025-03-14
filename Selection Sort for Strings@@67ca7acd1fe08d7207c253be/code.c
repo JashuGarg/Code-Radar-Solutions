@@ -5,9 +5,9 @@ void selectionSort(char arr[][100], int n) {
             if (arr[j] < arr[index])
                 index = j;
         }
-        char temp = arr[i];
+        char *temp = arr[i];
         arr[i]=arr[index];
-        arr[index]=temp;
+        arr[index]= *temp;
     }
 }
 
