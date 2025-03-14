@@ -10,13 +10,11 @@ int main (){
         char name[100];
         float marks;
         scanf("%d %s %f",&rollno,name,&marks);
-        if (i==1){
-            scanf("%f",&threshold);
-        }
         if (marks>=threshold){
             count++;
         }
     }
+    scanf("%f",&threshold);
 
     printf("Count of students scoring above %.2f: %d", threshold,count);
 }
