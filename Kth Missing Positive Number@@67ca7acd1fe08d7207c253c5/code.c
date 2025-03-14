@@ -12,5 +12,5 @@ int findKthMissing(int arr[],int n,int k)
         }else 
             start = mid+1;
     }
-    return ans;
+    return ans+k;
 }
