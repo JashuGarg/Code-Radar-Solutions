@@ -6,7 +6,7 @@ void swap(char a[],char b[]){
     strcpy(b,temp);
 }
 
-void insertionSort(char arr[][1000],int n){
+void insertionSort(char arr[][100],int n){
     for(int i=0;i<n-1;i++){
        int index = i;
        for (int j=i+1;j<n;j++){
