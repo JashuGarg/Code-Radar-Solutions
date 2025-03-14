@@ -10,7 +10,7 @@ void insertionSort(int arr[],int n)
         int index = i;
         for (int j=i+1;j<n;j++)
         {
-            if (arr[j]<arr[i]){
+            if (arr[j]<arr[index]){
                 index = j;
             }
         }
