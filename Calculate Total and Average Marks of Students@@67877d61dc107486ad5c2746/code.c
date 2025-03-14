@@ -12,6 +12,6 @@ int main (){
         sum +=marks;
     }
     float avg = sum/n;
-    printf("Total Marks: %d",sum);
-    printf("Average Marks: %d",avg);
+    printf("Total Marks: %.2f\n",sum);
+    printf("Average Marks: %.2f",avg);
 }
