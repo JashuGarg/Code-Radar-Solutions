@@ -21,7 +21,7 @@ int main(){
         if (arr[i]<mini)
             mini = arr[i];
     }
-    int second = -1;
+    int second = INT_MAX;
     for(int i=0;i<n;i++){
         if (arr[i]==mini)
             continue;
@@ -29,5 +29,8 @@ int main(){
             second = min(arr[i],second);
         
     }
-    printf("%d",second);
+    if(mini=second)
+        printf(-1);
+    else
+        printf("%d",second);
 }
