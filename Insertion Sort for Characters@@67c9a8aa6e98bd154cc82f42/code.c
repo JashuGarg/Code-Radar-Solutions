@@ -1,6 +1,6 @@
 void swap(char *a,char *b){
     char temp = *a;
-    a* = *b;
+    *a = *b;
     *b = temp;
 }
 
@@ -16,7 +16,7 @@ void insertionSort(char arr[],int n){
 }
 
 void printArray(char arr[],int n){
-    for (int i=;i<n;i++){
+    for (int i=0;i<n;i++){
         printf("%c ",arr[i]);
     }
 }
