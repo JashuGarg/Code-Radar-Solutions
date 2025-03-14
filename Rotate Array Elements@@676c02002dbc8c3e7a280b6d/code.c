@@ -12,7 +12,7 @@ int main (){
     while (x<=rotate)
   {  for (int i=0;i<n-1;i++)
     {
-        int newarr[1000]=[0];
+        int newarr[1000]={0};
         int temp = arr[n-1];
         newarr[i+1] =arr[i];
         newarr[0]=temp;
