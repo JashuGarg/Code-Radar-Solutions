@@ -14,7 +14,7 @@ void insertionSort(char arr[][1000],int n){
                 index = j ;
             }
        }
-       swap(&arr[index],&arr[i]);
+       swap(arr[index],arr[i]);
     }
 }
 
