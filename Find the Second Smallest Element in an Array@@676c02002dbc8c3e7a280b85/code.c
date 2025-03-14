@@ -29,7 +29,7 @@ int main(){
             second = min(arr[i],second);
         
     }
-    if(mini==second)
+    if(second==INT_MAX)
         printf("%d",-1);
     else
         printf("%d",second);
