@@ -13,7 +13,7 @@ int main (){
     int max = INT_MIN;
     int index ;
     for (int i=0;i<n;i++){
-        if (marks[i]>max)
+        if (marks[i]<max)
             index = i;
     }
     printf("Top Scorer: Roll NUmber: %d, Name: %s, Marks: %.2f",rollno[index],name[index],marks[index]);
