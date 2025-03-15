@@ -10,7 +10,7 @@ int main (){
     for(int i=0;i<n;i++){
         scanf("%d %s %f",&rollno[i],name[i],&marks[i]);
     }
-    int min = INT_MIN;
+    int max = INT_MIN;
     int index ;
     for (int i=0;i<n;i++){
         if (marks[i]>max)
