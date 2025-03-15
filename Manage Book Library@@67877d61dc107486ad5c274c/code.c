@@ -17,7 +17,7 @@ int main (){
             printf("Books above price %.2f:\n",limit);
         
         if(price[i]>limit){
-            printf("Title: %s, Author: %s, Price: %.2f",title[i],author[i],price[i]);
+            printf("Title: %s, Author: %s, Price: %.2f\n",title[i],author[i],price[i]);
         }
     }
 }
