@@ -14,7 +14,7 @@ int main (){
         char grade;
         if (marks[i]>=85.00)
             grade = 'A';
-        else if (marks[i]<=84.00 && marks[i]>=70.00)
+        else if (marks[i]<=84.99 && marks[i]>=70.00)
             grade = 'B';
         else 
             grade = 'C';
