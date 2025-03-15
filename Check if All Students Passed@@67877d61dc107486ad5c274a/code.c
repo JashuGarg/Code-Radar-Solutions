@@ -17,7 +17,7 @@ int main (){
     }
 
     if (allpassed)
-        printf("ALL Passed");
+        printf("All Passed");
     else
-        printf("Not ALL Passed");
+        printf("Not All Passed");
 }
