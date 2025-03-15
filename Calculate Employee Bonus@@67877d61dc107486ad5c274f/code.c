@@ -16,7 +16,7 @@ int main (){
             printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",rollno[i],name[i],bonus);
             }
         else {
-            float bonus = (5/100)*sal[i]
+            float bonus = (5/100)*sal[i];
             printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",rollno[i],name[i],bonus);
     }
     }
