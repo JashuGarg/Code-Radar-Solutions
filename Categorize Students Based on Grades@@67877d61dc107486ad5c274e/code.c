@@ -12,9 +12,9 @@ int main (){
 
     for(int i=0;i<n;i++){
         char grade;
-        if (marks[i]>=85)
+        if (marks[i]>=85.00)
             grade = 'A';
-        else if (marks[i]<=84 && marks[i]>70)
+        else if (marks[i]<=84.00 && marks[i]>=70.00)
             grade = 'B';
         else 
             grade = 'C';
