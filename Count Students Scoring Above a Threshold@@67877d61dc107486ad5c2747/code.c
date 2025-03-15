@@ -12,12 +12,12 @@ int main (){
 
     int limit ;
     int count = 0 ;
-
     scanf("%f",&limit);
+
     for (int i=0;i<n;i++){
         if (marks[i]>limit)
             count++;
     }
 
-    printf("Count of students scoring above %.2f: &d",limit,count);
+    printf("Count of students scoring above %.2f: %d",limit,count);
 }
