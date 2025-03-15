@@ -12,11 +12,11 @@ int main (){
     for(int i=0;i<n;i++)
     {
         if (sal[i]<50000){
-            float bonus = 10*sal[i];
+            float bonus = (10*sal[i])/100;
             printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",rollno[i],name[i],bonus);
             }
         else {
-            float bonus = (5/100)*sal[i];
+            float bonus = (5*sal[i])/100;
             printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",rollno[i],name[i],bonus);
     }
     }
