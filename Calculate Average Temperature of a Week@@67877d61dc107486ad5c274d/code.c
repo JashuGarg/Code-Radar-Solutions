@@ -10,6 +10,7 @@ int main (){
         scanf("%s %d",day[i],&temp[i]);
         sum += temp[i];
     }
+    printf("%.2f",sum);
     float avg = sum/7;
     printf("Average Temperature: %.2f",avg);
     
