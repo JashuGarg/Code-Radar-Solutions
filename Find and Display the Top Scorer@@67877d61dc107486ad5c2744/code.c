@@ -11,7 +11,7 @@ int main (){
     }
     int max = marks[0];
     int index ;
-    for (int i<0;i<n;i++){
+    for (int i=0;i<n;i++){
         if (marks[i]>max)
             index = i;
     }
