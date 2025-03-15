@@ -10,7 +10,7 @@ int main (){
         scanf("%d %s %f",&rollno[i],name[i],&marks[i]);
     }
 
-    int limit ;
+    float limit ;
     int count = 0 ;
     scanf("%f",&limit);
 
