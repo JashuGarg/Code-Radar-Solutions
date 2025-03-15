@@ -7,7 +7,7 @@ int main (){
     char name[n][100];
     int sal[100];
     for(int i=0;i<n;i++){
-        scanf("%d %s %f",&rollno[i],name[i],&sal[i]);
+        scanf("%d %s %d",&rollno[i],name[i],&sal[i]);
     }
     for(int i=0;i<n;i++)
     {
