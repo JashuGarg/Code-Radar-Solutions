@@ -8,6 +8,6 @@ int main (){
         scanf("%s %f",day,&temp);
         sum += temp;
     }
-    float avg = sum/n;
+    float avg = sum/7;
     printf("Average Temperature: %.2f",avg);
 }
