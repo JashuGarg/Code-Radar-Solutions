@@ -1,18 +1,15 @@
-// Your code here...
+// Your code here...// Your code here...
 #include <stdio.h>
 int main (){
     int n;
     scanf("%d",&n);
-    int temp[1000];
-    char day[n][100];
     float sum = 0;
-    for(int i=0;i<n;i++){
-        scanf("%s %f",day[i],&temp[i]);
+    for(int i=1;i<=n;i++){
+        char day[100];
+        float temp;
+        scanf("%d %s %f",&rollno,day,&temp);
+        sum += marks;
     }
-    for (int i=0;i<n;i++){
-        sum+= temp[i];
-    }
-    float avg = sum/7;
-    printf("Average Temperature: %.2f",avg);
-    
+    float avg = sum/n;
+    printf("Average Marks: %.2f",avg);
 }
