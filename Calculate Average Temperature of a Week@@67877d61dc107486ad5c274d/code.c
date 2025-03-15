@@ -7,7 +7,7 @@ int main (){
     char day[n][100];
     float sum = 0;
     for(int i=0;i<n;i++){
-        scanf("%s %d",day[i],&temp[i]);
+        scanf("%s %f",day[i],&temp[i]);
     }
     for (int i=0;i<n;i++){
         sum+= temp[i];
