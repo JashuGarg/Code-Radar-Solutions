@@ -8,7 +8,7 @@ int main (){
         char day[100];
         float temp;
         scanf("%s %f",day,&temp);
-        sum += marks;
+        sum += temp;
     }
     float avg = sum/n;
     printf("Average Marks: %.2f",avg);
