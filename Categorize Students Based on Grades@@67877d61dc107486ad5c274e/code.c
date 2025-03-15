@@ -19,6 +19,6 @@ int main (){
         else 
             grade = 'C';
         
-        printf("Roll Number: %d, Name: %s, Grade: %c/n",rollno[i],name[i],grade);
+        printf("Roll Number: %d, Name: %s, Grade: %c\n",rollno[i],name[i],grade);
     }
 }
