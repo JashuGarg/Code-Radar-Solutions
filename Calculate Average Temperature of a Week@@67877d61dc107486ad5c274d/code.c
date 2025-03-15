@@ -7,7 +7,7 @@ int main (){
     for(int i=1;i<=n;i++){
         char day[100];
         float temp;
-        scanf("%d %s %f",&rollno,day,&temp);
+        scanf("%s %f",day,&temp);
         sum += marks;
     }
     float avg = sum/n;
