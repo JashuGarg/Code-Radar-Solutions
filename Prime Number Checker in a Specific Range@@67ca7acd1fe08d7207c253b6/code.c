@@ -5,7 +5,7 @@ void printPrimesInRange(int a,int b){
                 int c=0;
                 for(int k=1;k<=a;k++){
                     if(a%k==0){
-                        c+=1;
+                        count_prime+=1;
                     }
                     else{
                         continue;
