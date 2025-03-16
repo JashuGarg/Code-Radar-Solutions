@@ -9,7 +9,7 @@ int kthSmallest(int arr[],int n,int k)
 {
     for (int i=0;i<n;i++){
         int isswapped = 0;
-        for (int j=i;j<n-1;j++){
+        for (int j = 0; j < n - i - 1; j++){
             if(arr[j+1]<arr[j]){
                 swap(&arr[j+1],&arr[j]);
                 isswapped = 1;
