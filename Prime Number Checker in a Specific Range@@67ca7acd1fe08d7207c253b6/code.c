@@ -5,9 +5,8 @@ void printPrimesInRange(int a,int b){
             for(int j=2;j<i;j++){
                 if(i%j==0)
                     count+=1;
- 
             }
-            if(count==1){
+            if(count==0){
                 count_prime+=1;
                 printf("%d ",i);
             }
