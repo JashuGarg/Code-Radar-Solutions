@@ -7,7 +7,7 @@ void swap(int *a,int *b){
 }
 int kthSmallest(int arr[],int n,int k)
 {
-    for (int i=n-2;i>=0;i++){
+    for (int i=0;i<n;i++){
         int isswapped = 0;
         for (int j=i;j<n-1;j++){
             if(arr[j+1]<arr[j]){
