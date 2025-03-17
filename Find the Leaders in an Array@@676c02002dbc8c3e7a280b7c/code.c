@@ -14,6 +14,8 @@ int main (){
         {
             if(arr[i]>=arr[j])
                 bigger = 1;
+            else 
+                bigger = 0;
         }
         if (bigger)
             printf("%d ",arr[i]);
