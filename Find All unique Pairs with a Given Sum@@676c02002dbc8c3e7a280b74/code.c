@@ -8,16 +8,19 @@ int main (){
         scanf("%d",&arr[i]);
     int target ;
     scanf("%d",&target);
-
+    int same = 0;
     for (int i=0;i<n;i++){
         int sum =0;
         for (int j=i+1;j<n;j++){
             sum  = arr[i]+arr[j];
+            if (same)
+                continue ;
             if (sum==target){
                 printf("%d %d\n",arr[i],arr[j]);
+                if (arr[i]==arr[j])
+                    same = 1;
             }
+            
         }
-                if (arr[i]==arr[i+1])
-                    break;
-    }
+    }   
 }
