@@ -12,7 +12,7 @@ int main (){
     int bigger =0;
         for (int j=i+1;j<n;j++)
         {
-            if(arr[i]<=arr[j]){
+            if(arr[i]<arr[j]){
                 bigger = 0;
                 break;}
             else 
@@ -22,6 +22,5 @@ int main (){
         if (bigger)
             printf("%d ",arr[i]);
     }
-    if(arr[n-2]!=arr[n-1])
         printf("%d",arr[n-1]);
 }
