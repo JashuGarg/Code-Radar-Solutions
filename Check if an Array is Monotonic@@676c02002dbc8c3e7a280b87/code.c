@@ -25,7 +25,7 @@ int main (){
                 isdec=0;
         }   
     }
-    if (isdec==1 || isincr ==1)
+    if (isdec==1 || isincr ==1 || n==1)
         printf("YES");
     else 
         printf("NO");
