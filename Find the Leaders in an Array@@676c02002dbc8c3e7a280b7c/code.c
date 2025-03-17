@@ -22,5 +22,6 @@ int main (){
         if (bigger)
             printf("%d ",arr[i]);
     }
-    printf("%d",arr[n-1]);
+    if(arr[n-2]!=arr[n-1])
+        printf("%d",arr[n-1]);
 }
