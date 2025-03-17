@@ -7,17 +7,16 @@ int main (){
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int ans ;
     for (int i=0;i<n;i++)
     {
-        for (int j=0;j<n;j++)
+    int bigger =0;
+        for (int j=i+1;j<n;j++)
         {
-            if(arr[j]<=ans)
-                ans = arr[i];
-            else
-                break;
+            if(arr[i]>=arr[j])
+                bigger = 1;
         }
-    printf("%d ",ans);
+        if (bigger)
+            printf("%d ",arr[i]);
     }
 
 }
