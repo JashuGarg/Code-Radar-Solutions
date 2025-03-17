@@ -12,10 +12,12 @@ int main (){
     int bigger =0;
         for (int j=i+1;j<n;j++)
         {
-            if(arr[i]>=arr[j])
-                bigger = 1;
-            else 
+            if(arr[i]<=arr[j])
                 bigger = 0;
+                break;
+            else 
+                bigger = 1;
+                
         }
         if (bigger)
             printf("%d ",arr[i]);
