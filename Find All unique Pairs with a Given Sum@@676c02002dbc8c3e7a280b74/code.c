@@ -11,7 +11,7 @@ int main (){
 
     for (int i=0;i<n;i++){
         int sum =0;
-        for (int j=0;j<n-j;j++){
+        for (int j=0;j<n-j+1;j++){
             sum  = arr[i]+arr[j];
             if (sum==target){
                 printf("%d %d\n",arr[i],arr[j]);
