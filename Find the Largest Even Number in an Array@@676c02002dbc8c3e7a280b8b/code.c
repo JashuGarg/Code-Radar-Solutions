@@ -24,7 +24,7 @@ int main (){
             break;
     }
     int isprint= 0;
-    for (int i=0i<n;i++){
+    for (int i=0;i<n;i++){
         if (arr[i]%2==0){
             printf("%d",arr[i]);
             break;
