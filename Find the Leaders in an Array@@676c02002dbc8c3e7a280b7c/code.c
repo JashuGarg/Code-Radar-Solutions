@@ -22,5 +22,5 @@ int main (){
         if (bigger)
             printf("%d ",arr[i]);
     }
-
+    printf("%d",arr[n-1]);
 }
