@@ -13,5 +13,12 @@ int main (){
             break;
             }
     }
+    if (ans == -1){
+        if (arr[0]>arr[1])
+            ans = arr[0];
+        else if (arr[n-1]>arr[n-2])
+            ans = arr[n-1];
+    }
+
     printf("%d",ans);
 }
