@@ -29,11 +29,11 @@ int main (){
     for (int i=0;i<n-1;i++){
         if ((arr[i+1]-arr[i])==1)
             count++;
-        else (arr[i+1]!=arr[i]){
+        else if (arr[i+1]!=arr[i]){
             if (count>maxcount){
-                maxcount =count;}
+                maxcount =count;
+                }
             count =1;
-
         }
 
     }
