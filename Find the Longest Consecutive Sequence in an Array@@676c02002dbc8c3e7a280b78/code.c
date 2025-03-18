@@ -30,8 +30,8 @@ int main (){
         if ((arr[i+1]-arr[i])==1)
             count++;
         else (arr[i+1]!=arr[i]){
-            if (count>maxcount)
-                maxcount =count;
+            if (count>maxcount){
+                maxcount =count;}
             count =1;
 
         }
