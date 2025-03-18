@@ -8,9 +8,10 @@ int main (){
     
     for (int i=0;i<n;i++){
         for (int j=i+1;j<n;j++){
-            if (arr[i]<arr[j]){
-                arr[i]=arr[j];
-            }
+            int no = arr[j];
+            if (no<arr[j])
+                no = arr[j];
+            arr[i]=no;
         }
     }
     arr[n-1] = -1;
