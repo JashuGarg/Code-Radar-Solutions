@@ -13,6 +13,6 @@ int main (){
             isprint = 1;
             break;}
     }
-    if (!isprint)
-        printf("%d",-1);
+    // if (!isprint)
+    //     printf("%d",-1);
 }
