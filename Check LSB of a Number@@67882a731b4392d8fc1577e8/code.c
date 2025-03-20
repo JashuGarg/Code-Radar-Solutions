@@ -2,9 +2,9 @@
 
 
 int main() {
-    int a,result;
-    scanf("%d %d",&a);
-    if(a&1){
+    int a;
+    scanf("%d",&a);
+    if(a%2!=0){
         printf("Set");
     }else{
         printf("Not Set");
