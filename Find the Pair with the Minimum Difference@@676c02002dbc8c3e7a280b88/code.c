@@ -10,9 +10,9 @@ int main (){
     int max =  INT_MIN;
     for (int i=0;i<n;i++){
         if (arr[i]>max)
-            max==arr[i];
+            max=arr[i];
     }
-    printf("%d",max);
+    // printf("%d",max); 
     int second = INT_MIN;
 
     for (int i=0;i<n;i++){
