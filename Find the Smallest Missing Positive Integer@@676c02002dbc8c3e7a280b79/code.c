@@ -14,13 +14,8 @@ int main (){
             arr[i]=0;
         sum+=arr[i];
     }
-    int max = INT_MIN ;
-    
-    for (int i=0;i<n;i++){
-        if (arr[i]>max)
-            max = arr[i];
-    }
-    int sumn = (max*(max+1))/2 ;
+
+    int sumn = (n*(n+1))/2 ;
     printf("%d",sumn-sum);
 
 
