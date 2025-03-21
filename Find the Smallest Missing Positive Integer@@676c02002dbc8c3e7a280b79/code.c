@@ -37,7 +37,7 @@ int main (){
     {
         mid = start + (end-start)/2;
 
-        if (arr[mid]-(mid+1)>0)
+        if (arr[mid]-(mid+1)<0)
             {
                 ans = mid;
                 end = mid-1;
