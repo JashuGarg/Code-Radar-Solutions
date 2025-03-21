@@ -7,10 +7,10 @@ int findUnsortedSubarray(int arr[], int n) {
         int index = arr[i];
         for (int j=i+1;j<n;j++){
             if (index<arr[j]){
-                 index = arr[j];
                  int temp = index;
                  index= arr[i];
                  arr[i] = temp;
+                 index = arr[j];
 
             }
 
