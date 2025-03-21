@@ -1,5 +1,6 @@
 // Your code here...
 #include <stdio.h>
+#include <limit.h>
 
 int main (){
     int n,arr[10000];
@@ -13,13 +14,14 @@ int main (){
             arr[i]=0;
         sum+=arr[i];
     }
-    int sumn=0;
-    for (int i=1;i<=n;i++){
-        sumn+= i;
+    int max = INT_MIN ;
+    
+    for (int i=0;i<n;i++){
+        if (arr[i]>max)
+            max = arr[i];
     }
-    printf("%d\n",sumn-sum);
-    printf("%d\n",sumn);
-    printf("%d\n",sum);
+    int sumn = (max*(max+1))/2 ;
+    printf("$d",sumn-sum);
 
 
 }
