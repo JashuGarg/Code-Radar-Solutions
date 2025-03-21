@@ -1,5 +1,11 @@
 #include <stdio.h>
 // #include <stdlib.h>
+void swap (int *a,int *b){
+    int temp ;
+    temp =*a;
+    *a=*b;
+    *b=temp;
+}
 
 int findUnsortedSubarray(int arr[], int n) {
     int count = 0;
@@ -7,10 +13,9 @@ int findUnsortedSubarray(int arr[], int n) {
         int index = arr[i];
         for (int j=i+1;j<n;j++){
             if (index<arr[j]){
-                 int temp = index;
-                 index= arr[i];
-                 arr[i] = temp;
-                 index = arr[j];
+                swap(&index,&arr[j]);
+                index = arr[j];
+
 
             }
 
