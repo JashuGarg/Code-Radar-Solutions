@@ -35,7 +35,7 @@ int main (){
         }
     }
 
-    printf("%d",target);
+    printf("%d %d",arr[start],arr[end]);
 
 
 }
