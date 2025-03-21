@@ -43,7 +43,7 @@ int main (){
                 end = mid-1;
             }
         else 
-            star = mid +1;
+            start = mid +1;
     
     }
     printf("%d",ans+1);
