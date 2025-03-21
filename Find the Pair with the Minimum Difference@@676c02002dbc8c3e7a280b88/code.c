@@ -29,9 +29,10 @@ int main (){
             if (arr[j]-arr[i]<min){
                 min = arr[j]-arr[i];
             }
-            else 
+            else {
                 ind1 = j,ind2= i;
                 break;
+                }
         }
     }
 
