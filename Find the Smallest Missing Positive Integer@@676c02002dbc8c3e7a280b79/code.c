@@ -21,7 +21,7 @@ int main (){
             max = arr[i];
     }
     int sumn = (max*(max+1))/2 ;
-    printf("$d",sumn-sum);
+    printf("%d",sumn-sum);
 
 
 }
