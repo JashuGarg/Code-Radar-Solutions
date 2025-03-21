@@ -13,8 +13,8 @@ int findUnsortedSubarray(int arr[], int n) {
         int index = arr[i];
         for (int j=i+1;j<n;j++){
             if (index<arr[j]){
-                swap(&index,&arr[j]);
                 index = arr[j];
+                swap(&index,&arr[j]);
 
 
             }
