@@ -22,20 +22,12 @@ int main (){
     for (int i=0;i<n;i++)
         scanf("%d",&arr[i]);
     bubbleSort(arr,n);
-    int target = arr[n-1] - arr[0];
-    int start=0,end=n-1;
+    for (int i=0;i<n;i++)
+        printf("%d",arr[i]);
 
-    while (start<end){
-        if (arr[end]-arr[start]<target)
-        {
-            target = arr[end]-arr[start];
-            start++;
-        }else {
-            end--;
-        }
-    }
 
-    printf("%d %d",arr[start],arr[end]);
+
+    // printf("%d %d",arr[start],arr[end]);
 
 
 }
