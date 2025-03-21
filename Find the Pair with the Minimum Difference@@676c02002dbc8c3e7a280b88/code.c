@@ -26,7 +26,7 @@ int main (){
     int start=0,end=n-1;
 
     while (start<end){
-        if (arr[end]-arr[start]<target)
+        if (arr[end]-arr[start]<=target)
         {
             target = arr[end]-arr[start];
             start++;
