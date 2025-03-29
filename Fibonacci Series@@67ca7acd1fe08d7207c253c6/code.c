@@ -1,17 +1,5 @@
-#include <stdio.h>
-// Your code here...M
-void fibonacciSeries(int n){
-    int a = 0;
-    int b = 1;
-    if (n<2){
-        printf("%d",0);
-        return;
-    }
-   printf("%d %d",a,b);
-    for (int i=2;i<n;i++){
-      int c = a+b;
-        a = b;
-        b = c;
-        printf(" %d",c);
-    }
+int fibonacciSeries(n){
+    if(n==0 || n==1) return 1;
+    int aNSD= fibonacciSeries(n-1) + fibonacciSeries(n-2);
+    return aNSD;
 }
